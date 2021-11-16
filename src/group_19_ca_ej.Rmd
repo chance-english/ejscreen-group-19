@@ -35,6 +35,8 @@ ggplot(data = ces,
        aes(x = white_percent,
            y = ces_3_0_score)) + 
   geom_hex() +
+  scale_fill_gradient(low = "darkolivegreen1", high = "darkolivegreen") +
+  theme_minimal() +
   labs(x = "White Proportion of Population (%)",
        y = "CA EnviroScreen 3.0 Score")
 ```
