@@ -1,0 +1,32 @@
+---
+title: "Group 19 CA pollution burden"
+author: "Chance English & Emily Pelstring"
+date: "11/16/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+
+library(tidyverse)
+library(janitor)
+library(here)
+
+
+
+```
+
+
+## Read in CA Envio3.0 Data Set
+
+
+```{r}
+
+ces <- read_csv(here("data", "ces3demographics.csv")) %>% 
+  clean_names()
+
+
+```
+
+
+
