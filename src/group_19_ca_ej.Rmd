@@ -40,5 +40,5 @@ ggplot(data = ces,
   labs(x = "White Proportion of Population (%)",
        y = "CA EnviroScreen 3.0 Score")
 ```
-
+**Figure 1.** CalEnviroScree 3.0 Score as a function of the proportion of the population that is White. Higher CA EnviroScreen 3.0 scores represents high cumulative pollution burdens and highly vulnerable population characteristics which make pullutants more deadly. Shading of each hexagon is scaled to the number of observations.
 
